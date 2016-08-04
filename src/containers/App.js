@@ -23,14 +23,12 @@ App.propTypes = {
 }
 
 function mapStateToProps(state) {
-  console.log('state ', state)
   return {
     todos: state.todos
   }
 }
 
 function mapDispatchToProps(dispatch) {
-  console.log('dispatch ', dispatch)
   return {
     actions: bindActionCreators(TodoActions, dispatch)
   }

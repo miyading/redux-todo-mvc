@@ -1,4 +1,4 @@
-# redux-todolist
+# redux-todo-mvc
 
 ```
 webpack
